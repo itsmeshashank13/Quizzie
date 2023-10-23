@@ -7,22 +7,23 @@ function Signup() {
     <div className= {styles.mainContainer}>
         <h1 className={styles.quiz}>QUIZZIE</h1>
         <div className={styles.btn}>
-            <button className={styles.btnSignup}>Sign Up</button>
-            <button className={styles.btnLogin}>Log In</button>
+          <button className={styles.btnSignup}>Sign Up</button>
+          <button className={styles.btnLogin}>Log In</button>
         </div>
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
+        <div className={styles.form}>
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" id="name" />
 
-            <label htmlFor="name">Email</label>
-            <input type="email" name="email" id="email" />
+          <label htmlFor="name">Email</label>
+          <input type="email" name="email" id="email" />
 
-            <label htmlFor="name">Password</label>
-            <input type="password" name="password" id="password" />
+          <label htmlFor="name">Password</label>
+          <input type="password" name="password" id="password" />
 
-            <label htmlFor="name">Confirm Password</label>
-            <input type="password" name="confirm-password" id="confirm-password" />
-
-            <button className={styles.signUp}>Sign-Up</button>
+          <label htmlFor="name">Confirm Password</label>
+          <input type="password" name="confirm-password" id="confirm-password" />
+        </div>
+        <button className={styles.signUp}>Sign-Up</button>
     </div>
     </>
   )

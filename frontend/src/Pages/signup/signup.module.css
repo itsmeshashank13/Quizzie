@@ -29,6 +29,8 @@ html, body {
 .quiz {
     font-family: Jomhuria;
     color: #474444;
+    font-size: 100px;
+    font-weight: 100;
 }
 
 .signUp {
@@ -36,4 +38,29 @@ html, body {
     background-color: #A9BCFF;
     border: none;
     border-radius: 5px;
+    width: 275px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+label {
+    font-weight: 900;
+    color: #474444;
+    padding-right: 5px;
+}
+
+input {
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+    height: 30px;
+    float: right;
 }
