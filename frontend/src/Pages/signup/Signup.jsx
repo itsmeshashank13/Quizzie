@@ -5,11 +5,11 @@ import axios from 'axios';
 function Signup() {
 
   const [activeButton, setActiveButton] = useState('');
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [isPasswordValid, setIsPasswordValid] = useState(true);
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+  // const [confirmPassword, setConfirmPassword] = useState('');
+  // const [isPasswordValid, setIsPasswordValid] = useState(true);
 
 
   const handleButtonClick = (event)=> {
@@ -17,32 +17,32 @@ function Signup() {
     setActiveButton(buttonName);
   };
 
-  const handlePasswordChange = (event) => {
-    const newPassword = event.target.value;
-    setPassword(newPassword);
-    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-    setIsPasswordValid(passwordRegex.test(newPassword));
-  };
+  // const handlePasswordChange = (event) => {
+  //   const newPassword = event.target.value;
+  //   setPassword(newPassword);
+  //   const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  //   setIsPasswordValid(passwordRegex.test(newPassword));
+  // };
 
-  const handleConfirmPasswordChange = (event) => {
-    const newConfirmPassword = event.target.value;
-    setConfirmPassword(newConfirmPassword);
-  };
+  // const handleConfirmPasswordChange = (event) => {
+  //   const newConfirmPassword = event.target.value;
+  //   setConfirmPassword(newConfirmPassword);
+  // };
 
-  const handleSignup = () => {
-    if (password === confirmPassword && isPasswordValid) {
-      const newUser = { name, email, password };
-      setStoredUsers([...storedUsers, neUser]);
-      alert('Signup successful!');
+  // const handleSignup = () => {
+  //   if (password === confirmPassword && isPasswordValid) {
+  //     const newUser = { name, email, password };
+  //     setStoredUsers([...storedUsers, neUser]);
+  //     alert('Signup successful!');
 
-      setName('');
-      setEmail('');
-      setPassword('');
-      setConfirmPassword('');
-    } else {
-      alert("Passwords do not match or are invalid");
-    }
-  }
+  //     setName('');
+  //     setEmail('');
+  //     setPassword('');
+  //     setConfirmPassword('');
+  //   } else {
+  //     alert("Passwords do not match or are invalid");
+  //   }
+  // }
 
 
   return (
@@ -77,7 +77,7 @@ function Signup() {
           </div>  
                   
         </div>
-        <button onClick={handleSignup} className={styles.signUp}>Sign-Up</button>
+        <button /* onClick={handleSignup} */ className={styles.signUp}>Sign-Up</button>
     </div>
     </>
   )
