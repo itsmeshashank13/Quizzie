@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import styles from "./signup.module.css";
+import axios from 'axios';
 
 function Signup() {
 
   const [activeButton, setActiveButton] = useState('');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [isPasswordValid, setIsPasswordValid] = useState(true);
@@ -28,7 +31,14 @@ function Signup() {
 
   const handleSignup = () => {
     if (password === confirmPassword && isPasswordValid) {
-      
+      const newUser = { name, email, password };
+      setStoredUsers([...storedUsers, neUser]);
+      alert('Signup successful!');
+
+      setName('');
+      setEmail('');
+      setPassword('');
+      setConfirmPassword('');
     } else {
       alert("Passwords do not match or are invalid");
     }
@@ -42,7 +52,7 @@ function Signup() {
 
         <div className={styles.btn}>
           <button onclick={handleButtonClick} name="signup" className={activeButton === 'signup' ? 'btnSignup active' : 'styles.btnSignup'}>Sign Up</button>
-          <button onclick={handleButtonClick} name="login" className={activeButton === 'signup' ? 'btnLogin active' : 'btnLogin'}>Log In</button>
+          <button onclick={handleButtonClick} name="login" className={activeButton === 'login' ? 'btnLogin active' : 'btnLogin'}>Log In</button>
         </div>
 
         <div className={styles.form}>
@@ -67,7 +77,7 @@ function Signup() {
           </div>  
                   
         </div>
-        <button className={styles.signUp}>Sign-Up</button>
+        <button onClick={handleSignup} className={styles.signUp}>Sign-Up</button>
     </div>
     </>
   )
