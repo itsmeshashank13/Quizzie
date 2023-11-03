@@ -1,0 +1,53 @@
+.left {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    float: inline-start;
+    box-shadow: 0 0 10px #878787;
+}
+
+.left h1 {
+    font-family: Jomhuria;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #474444;
+    padding-top: 2rem;
+}
+
+.para {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.para button {
+    font-family: Poppins;
+    font-weight: 600;
+    color: #474444;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+}
+
+.bottom hr {
+    height: 1px;
+    background-color: #474444;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.bottom h3 {
+    font-family: Poppins;
+    text-align: center;
+    padding-bottom: 1rem;
+}
