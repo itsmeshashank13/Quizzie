@@ -7,11 +7,44 @@
 }
 
 .head {
+    font-family: Poppins;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
 
+.head .wrapper {
+    background-color: #ffffff;
+    text-align: center;
+    width: max-content;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+}
+
+.head .wrapper:first-child {
+    color: #FF5D01;
+}
+
+.head .wrapper:nth-child(2) {
+    color: #60B84B;
+}
+
+.head .wrapper:nth-child(3) {
+    color: #5076FF;
+}
+
+.head .wrapper h1 {
+    font-size: 50px;
+    margin-right: 1rem;
+}
+
+.head .wrapper p {
+    font-size: x-large;
+    font-weight: 900;
 }
 
 .bottom h1 {
     font-family: Poppins;
     color: #474444;
-    font-size: large;
 }

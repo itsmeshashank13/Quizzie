@@ -9,9 +9,18 @@ function Dashboard() {
     <LeftBar />
     <div className={styles.main}>
       <div className={styles.head}>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span className={styles.wrapper}>
+          <h1>12</h1>
+          <p><span>Quiz </span>Created</p>
+        </span>
+        <span className={styles.wrapper}>
+          <h1>110</h1>
+          <p><span>Question</span>  Created </p>
+        </span>
+        <span className={styles.wrapper}>
+          <h1>989</h1>
+          <p><span>Total</span> Impression </p>
+        </span>
       </div>
       <div className={styles.bottom}>
         <h1>Trending Quizes</h1>
