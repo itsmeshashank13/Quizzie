@@ -1,6 +1,7 @@
 import React from 'react';
 import LeftBar from '../../Components/leftBar/LeftBar';
 import styles from './dashboard.module.css';
+import {BsEye} from 'react-icons/bs';
 
 
 function Dashboard() {
@@ -22,11 +23,38 @@ function Dashboard() {
           <p><span>Total</span> Impression </p>
         </span>
       </div>
+      <span className={styles.mid}><h1>Trending Quizes</h1></span>
       <div className={styles.bottom}>
-        <h1>Trending Quizes</h1>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
+        <span>
+          <h2>Quiz 1</h2>
+          <p>667<BsEye/></p>
+          <p>Created on: 11 Nov, 2023</p>
+        </span>
       </div>
     </div>
     </>
