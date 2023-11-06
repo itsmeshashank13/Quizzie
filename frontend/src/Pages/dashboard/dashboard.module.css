@@ -62,19 +62,21 @@
 }
 
 .bottom span {
-    width: max-content;
     background-color: #ffffff;
     padding: 5px 15px;
     border-radius: 10px;
     margin: 1rem 3.5rem;
-    display: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
 }
 
-.bottom span p:nth-child(2){
+.bottom span .num{
     color: #FF5D01;
     float: right;
-    
-
+    margin: 5px 0;
 }
 
 .bottom span p:nth-child(3){

@@ -23,36 +23,38 @@ function Dashboard() {
           <p><span>Total</span> Impression </p>
         </span>
       </div>
-      <span className={styles.mid}><h1>Trending Quizes</h1></span>
+      <span className={styles.mid}>
+        <h1>Trending Quizes</h1>
+      </span>
       <div className={styles.bottom}>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
         <span>
           <h2>Quiz 1</h2>
-          <p>667<BsEye/></p>
+          <p className={styles.num}>667<BsEye/></p>
           <p>Created on: 11 Nov, 2023</p>
         </span>
       </div>
