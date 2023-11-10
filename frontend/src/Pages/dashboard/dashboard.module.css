@@ -6,6 +6,12 @@
     background-color: #EDEDED;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.scrollable {
+    flex: 1; /* Fill remaining vertical space */
+    overflow-y: auto; /* Adjust padding as needed */
 }
 
 .head {

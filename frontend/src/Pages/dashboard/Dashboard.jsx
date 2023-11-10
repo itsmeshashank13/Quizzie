@@ -31,7 +31,71 @@ function Dashboard() {
         <span className={styles.mid}>
           <h1>Trending Quizes</h1>
         </span>
-        <div className={styles.bottom}>
+        <div className={`${styles.bottom} ${styles.scrollable}`}>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
+          <span>
+            <h2>Quiz 1</h2>
+            <p className={styles.num}>
+              667
+              <BsEye className={styles.BsEye} />
+            </p>
+            <p>Created on: 11 Nov, 2023</p>
+          </span>
           <span>
             <h2>Quiz 1</h2>
             <p className={styles.num}>
