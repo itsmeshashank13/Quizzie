@@ -1,0 +1,59 @@
+.wrapper {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.wrapper span h1 {
+    color: #5076FF;
+    margin-bottom: 20%;
+}
+
+.wrapper2 table {
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+.deepBlue {
+    background-color: #5076FF;
+    color: #ffffff;
+}
+
+.deepBlue th {
+    padding: 2px 2rem;
+}
+
+.white, .blue{
+    font-weight: 600;
+}
+
+.wrapper2 td a {
+    font-size: 13px;
+}
+
+.blue {
+    background-color: #B3C4FF;
+}
+
+.edit {
+    color: #854CFF;
+}
+
+.delete {
+    color: #D60000;
+}
+
+.share {
+    color: #60B84B;
+}
+
+.add {
+    color: #5076FF;
+}

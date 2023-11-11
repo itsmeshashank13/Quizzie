@@ -10,8 +10,8 @@
 }
 
 .scrollable {
-    flex: 1; /* Fill remaining vertical space */
-    overflow-y: auto; /* Adjust padding as needed */
+    flex: 1;
+    overflow-y: auto; 
 }
 
 .head {
