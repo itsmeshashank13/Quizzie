@@ -27,7 +27,7 @@ function Analytics() {
                    <tr className={Styles.white}>
                     <td>1</td>
                     <td>Quiz 1</td>
-                    <td>11 Nov,2023</td>
+                    <td>11 Nov,  2023</td>
                     <td>345</td>
                     <td><Icon className={Styles.edit} icon="bx:edit" /></td>
                     <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>
@@ -37,7 +37,7 @@ function Analytics() {
                    <tr className={Styles.blue}>
                     <td>2</td>
                     <td>Quiz 2</td>
-                    <td>11 Nov,2023</td>
+                    <td>11 Nov, 2023</td>
                     <td>600</td>
                     <td><Icon className={Styles.edit} icon="bx:edit" /></td>
                     <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>

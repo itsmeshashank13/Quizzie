@@ -19,6 +19,7 @@
 
 td {
     text-align: center;
+    padding: 5px;
 }
 
 .deepBlue {
@@ -38,20 +39,29 @@ td {
     font-size: 13px;
 }
 
+.wrapper2 .deepblue, 
+.wrapper2 .white, 
+.warpper2 .blue {
+    border-radius: 5px !important;
+}
+
 .blue {
     background-color: #B3C4FF;
 }
 
 .edit {
     color: #854CFF;
+    font-size: 20px;
 }
 
 .delete {
     color: #D60000;
+    font-size: 20px;
 }
 
 .share {
     color: #60B84B;
+    font-size: 20px;
 }
 
 .add {
