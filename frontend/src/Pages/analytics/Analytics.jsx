@@ -14,34 +14,36 @@ function Analytics() {
             </span>
             <div className={Styles.wrapper2}>
                 <table>
-                   <tr className={Styles.deepBlue}>
+                   <tr>
                     <th>S.No</th>
                     <th>Quiz Name</th>
                     <th>Created On</th>
                     <th>Impression</th>
                     <th></th>
                     <th></th>
-                    <th></th>
-                    <th></th>
                    </tr>
-                   <tr className={Styles.white}>
+                   <tr>
                     <td>1</td>
                     <td>Quiz 1</td>
                     <td>11 Nov,  2023</td>
                     <td>345</td>
-                    <td><Icon className={Styles.edit} icon="bx:edit" /></td>
-                    <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>
-                    <td><Icon className={Styles.share} icon="ic:sharp-share" /></td>
+                      <span>
+                        <td><Icon className={Styles.edit} icon="bx:edit" /></td>
+                        <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>
+                        <td><Icon className={Styles.share} icon="ic:sharp-share" /></td>
+                      </span>
                     <td><a href="">Question Wise Analysis</a></td>
                    </tr>
-                   <tr className={Styles.blue}>
+                   <tr>
                     <td>2</td>
                     <td>Quiz 2</td>
                     <td>11 Nov, 2023</td>
                     <td>600</td>
-                    <td><Icon className={Styles.edit} icon="bx:edit" /></td>
-                    <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>
-                    <td><Icon className={Styles.share} icon="ic:sharp-share" /></td>
+                    <span>
+                      <td><Icon className={Styles.edit} icon="bx:edit" /></td>
+                      <td><Icon className={Styles.delete} icon="material-symbols:delete" /></td>
+                      <td><Icon className={Styles.share} icon="ic:sharp-share" /></td>
+                    </span>
                     <td><a href="">Question Wise Analysis</a></td>
                    </tr>
                 </table>
